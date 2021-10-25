@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Typing Game</h1>
+    <p id="title"></p>
+    <p>Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin</p>
+    <p id="quote"></p>
+    <div class="modal" id="modalMessage">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <button class="close-modal" aria-label="close modal" data-close>X</button>
+            </header>
+            <section class="modal-content">
+                <p id="message"></p>
+            </section>
+            <footer class="modal-footer">
+                Developed by Rafa
+            </footer>
+        </div>
+    </div>
+    <div>
+        <input type="text" aria-label="current word" id="typed-value" disabled>
+        <button type="button" id="start">Start</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
